@@ -1,0 +1,2 @@
+-r requirements.txt
+google-cloud-vision>=3.7,<4

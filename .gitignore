@@ -1,0 +1,41 @@
+# Local accounts and credentials
+.env
+.env.*
+!.env.example
+.private/
+*.session
+*.session-*
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Local archives, OCR text, journals and generated demo workspaces
+data/
+demo_data/
+sorted/
+sorted_FINAL/
+_state/
+visual_log.csv
+sort_log.csv
+tg_inventory.json
+manifest.csv
+batch_ocr.json
+*.part
+
+# Python and editor state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
