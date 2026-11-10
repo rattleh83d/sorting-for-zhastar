@@ -12,6 +12,18 @@ I built tools to reduce that repetitive work while keeping a person in control o
 
 My work on the project involved translating the organisation's requirements into a workflow, developing and revising the tools, and checking the output with the people using it.
 
+
+## Development process and AI assistance
+
+I designed the complete sorting workflow, program logic, and structure myself, based on the media-organisation tasks I encountered while working with Zhastar Üni.
+
+I developed the tools step by step: I specified what each part should do and how it should fit into the overall workflow, then used AI to help implement those decisions in Python. After each addition, I worked through the code until I understood its operation before moving on to the next step.
+
+AI provided substantial coding assistance. The workflow and structural design were my own, while the implementation was AI-assisted; I do not claim to have written every line independently.
+
+This public repository is a reconstructed and revised version of the recovered tools, rather than an exact copy of the original working pipeline. Its later cleanup, refactoring, and automated tests also involved AI assistance.
+
+
 ## What is in this repository
 
 This is a **reconstructed and hardened release of recovered tools**, rather than a claim that the exact final historical pipeline has been recovered. The archived scripts and final logs used different formats. This release makes the surviving tools runnable on a synthetic example and fixes identified issues.
